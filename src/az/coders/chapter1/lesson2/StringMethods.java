@@ -3,8 +3,15 @@ package az.coders.chapter1.lesson2;
 public class StringMethods {
     public static void main(String[] args) {
         String str1="\nsalam \t hi";
-        System.out.println(str1);
-        System.out.println(str1.strip());
+        String as=null;
+        as=as+"salam";
+        System.out.println(1+2+"sasd");
+        System.out.println("sasd"+1+2);
+
+
+//        System.out.println(as);
+//        System.out.println(str1.strip());
+
 //        str1.concat(" hi");
 
 
