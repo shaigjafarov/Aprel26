@@ -11,7 +11,6 @@ public class MainTest {
     }
     public static void main(String[] args) {
 
-
         TestI<String> stringTestI= new MainTest()::ss;
         Scanner sc= new Scanner(System.in);
 //        Calculate<Integer, Double> calculate= (a,b )->(double) (a)/b;
