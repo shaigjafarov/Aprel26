@@ -20,6 +20,7 @@ class StudentService {
         System.out.println("argument: " + args);
     }
 }
+//@FunctionalInterface
 public class ExampleAccessingPrivateMethod {
     public static void main(String[] args) {
         try {
