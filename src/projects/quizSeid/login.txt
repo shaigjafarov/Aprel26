@@ -1,0 +1,17 @@
+/login
+req
+{“username”:”nihat”,
+“password”.”nihat123”
+}
+res
+{“token”:”sdghcfb86324r87gfdiwsfe78”,
+“profilPic”:”http://nihat_babayev.png”,
+“fullname”: “Nihat Babayev”}
+
+/register
+{//name
+//surname
+//image
+//email
+//phone
+}

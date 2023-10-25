@@ -16,16 +16,8 @@ public class StudentService {
 
         Student studentById = studentRepository.getStudentById(1L);
         StudentDTO studentDTO = new StudentDTO(studentById.getId(),studentById.getName());
-
+        
         return  studentDTO;
-
-
-
-
-
-
-        System.out.println();
-
 
     }
 }

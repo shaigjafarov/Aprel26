@@ -1,0 +1,25 @@
+CategoryController
+
+HTTP  /category/
+GET
+Request:
+header: Authorization
+
+
+
+
+Response:
+[
+     {
+        "id":1,
+       "name":"sport",
+       "quizCount": 21,
+       "icon":"sport_icon_url"
+     },
+     {
+        "id":2,
+       "name":"literature",
+       "quizCount": 15,
+       "icon":"literature_icon_url"
+     }
+]

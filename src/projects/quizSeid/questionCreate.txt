@@ -1,0 +1,49 @@
+HTTP POST /question/
+
+Request
+header: Authorization
+//Answer TYPE
+Multi
+Single
+Bool
+Puzzle
+Voice
+Text
+Pool
+
+
+
+
+body
+{
+"quizId":123,
+questions:
+
+     [
+       {
+         "title":"Niye dovlet isi?",
+         "answerType" :"SINGLE",
+         "time": 100,
+         "image": "multipart",
+         "answers":
+            [
+               { "orderNum":1,
+                 "title" :" Maraqlidi",
+                 "correct": true,
+                 "percentage": null
+                 "correctOrder":null
+                 "voice": null
+               },
+               { "orderNum":2,
+                 "title" :" Pensiyaya tez cixirsan",
+                 "correct": false
+               }
+            ]
+        }
+     ]
+
+
+
+
+}
+

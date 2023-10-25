@@ -1,0 +1,22 @@
+HTTP POST  quiz/
+
+Request
+header: Authorization
+
+body:
+
+{
+"image": "multipart",
+"name": "Yukselis",
+"description": "Dovlet isine qebul ucun imtahan",
+"categoryId": 1
+}
+
+Response
+HTTP Status success
+201
+
+{
+"quizId": 123,
+"quizName": "Yukselis"
+}

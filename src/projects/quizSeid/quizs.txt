@@ -1,0 +1,33 @@
+HTTP GET quiz/all?page=1&size10&sort=name&order=asc
+
+Request
+header Authorization
+lang az
+Response
+{
+"page":1,
+"size":10,
+"allPageCount":20,
+"sortedColumn": "name"
+"sortedOrder": "Asc"
+"content":
+   [
+       {
+       "quizImage": "http://topic_image_url.png"
+       "quizName": "Classic Novel",
+       "categoryName":"Literature",
+       "questionCount": "15 Quizzes"
+       },
+       {
+       "quizImage": "http://topic_image_url.png"
+       "quizName": "olimpic game",
+       "categoryName":"Sport",
+       "questionCount": "20 Quizzes"
+       }
+   ]
+}
+
+
+
+
+
